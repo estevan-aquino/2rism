@@ -9,16 +9,17 @@
 }
 
 .content {
-	padding: 0px 14%;
+	padding: 0px 12em;
+	/* padding: 0px 14%; */
 }
 
 header {
+	position: absolute;
+	width: 100%;
     display: flex;
 	justify-content: space-between;
-	background-color: #000;
 	align-items: center;
-	align-items: center;
-	padding-top: 16px;
+	top: 16px;
 }
 
 #logoCont {
@@ -38,7 +39,8 @@ header {
 }
 
 .navHeader {
-	margin: 0px 27px;
+	/* margin: 0px 27px; */
+	margin: 0px 1.5rem;
 	height: auto;
 
 	font-family: 'Poppins';
@@ -126,8 +128,6 @@ footer {
 
 	color: #5B5B5B;
 }
-
-
 
 #fSocialsIco {
 	margin-top: 35px;
