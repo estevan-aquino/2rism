@@ -49,17 +49,27 @@
     </header>
 
     <main>
-        <section id="hero" class="content">
-            <div class="title">
-                <h1>Discover the most engaging places</h1>
-                <button id="discover">
-                    <img src="src/assets/Main/globalIco.svg" alt="">
-                    Discover on 3D Globe
-                </button>
-            </div>
+        <section id="hero">
+            <div class="content">
+                <div class="title">
+                    <h1>Discover the most engaging places</h1>
+                    <button id="discover">
+                        <img src="src/assets/Main/globalIco.svg" alt="">
+                        Discover on 3D Globe
+                    </button>
+                </div>
+                <div id="sFormWrapper">
+                    <form action="" id="heroSearch">
+                        <input type="text" id="sLoc" class="search">
+                        <input type="checkbox" id="sAct" class="search">
+                        <input type="date" name="" id="sWhen" class="search">
+                        <input type="checkbox" id="sGuest" class="search">
+                        <button type="submit" id="btnSearch"><img src="src/assets/Main/searchIco.svg" alt=""></button>
+                    </form>
+                </div>
             </div>
         </section>
-        <section id="pDest" class="content">
+        <section id="pDest" class="content sap">
             <h2 class="textTop">Popular Destinations</h2>
             <div class="wrapper">
                 <div class="block">
@@ -68,42 +78,54 @@
                     <p class="tion">California, USA</p>
                 </div>
                 <div class="block">
-                    <img class="ti" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="na">Big Sur</p>
-                    <p class="tion">California, USA</p>
+                    <img class="ti" src="src/assets/Main/destinations/img-1.png" alt="">
+                    <p class="na">Prescott</p>
+                    <p class="tion">Arisona, USA</p>
                 </div>
                 <div class="block">
-                    <img class="ti" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="na">Big Sur</p>
-                    <p class="tion">California, USA</p>
+                    <img class="ti" src="src/assets/Main/destinations/img-2.png" alt="">
+                    <p class="na">Fort Mayers</p>
+                    <p class="tion">Florida, USA</p>
                 </div>
                 <div class="block">
-                    <img class="ti" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="na">Big Sur</p>
-                    <p class="tion">California, USA</p>
+                    <img class="ti" src="src/assets/Main/destinations/img-3.png" alt="">
+                    <p class="na">Tucson</p>
+                    <p class="tion">Arizona, USA</p>
                 </div>
                 <div class="block">
-                    <img class="ti" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="na">Big Sur</p>
-                    <p class="tion">California, USA</p>
+                    <img class="ti" src="src/assets/Main/destinations/img-4.png" alt="">
+                    <p class="na">St. Joseph</p>
+                    <p class="tion">Michigan, USA</p>
                 </div>
                 <div class="block">
-                    <img class="ti" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="na">Big Sur</p>
-                    <p class="tion">California, USA</p>
+                    <img class="ti" src="src/assets/Main/destinations/img-5.png" alt="">
+                    <p class="na">Madrid</p>
+                    <p class="tion">Spain</p>
                 </div>
             </div>
         </section>
-        <section id="hotRes" class="content">
+        <section id="hotRes" class="content sap">
             <div class="barText">
                 <h2 class="textTop">Hotels and Restaurants</h2>
                 <a class="vAll" href="#">View all <img src="src/assets/Main/arrowLeftViewAll.svg" alt=""></a>
             </div>
             <div class="wrapper">
                 <div class="block">
-                    <img class="ho" src="src/assets/Main/destinations/img.png" alt="">
+                    <img class="ho" src="src/assets/Main/HotelsAndRestaurants/Frame 3.png" alt="">
                     <p class="te">Monastero Santa Rosa Hotel & Spa</p>
                     <p class="ls"><img src="src/assets/Main/resIcoLocation.svg" alt=""> Salerno, Italy</p>
+                    <div id="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <div class="block">
+                    <img class="ho" src="src/assets/Main/HotelsAndRestaurants/Frame 3-1.png" alt="">
+                    <p class="te">Grand Hotel Tremezzo</p>
+                    <p class="ls"><img src="src/assets/Main/resIcoLocation.svg" alt=""> Lake Como, Italy</p>
                     <div id="stars">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -113,33 +135,21 @@
                     </div>
                 </div>
                 <div class="block">
-                    <img class="ho" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="te">Monastero Santa Rosa Hotel & Spa</p>
-                    <p class="ls"><img src="src/assets/Main/resIcoLocation.svg" alt=""> Salerno, Italy</p>
+                    <img class="ho" src="src/assets/Main/HotelsAndRestaurants/Frame 3-2.png" alt="">
+                    <p class="te">The Oberoi Udaivilas, Udaipur</p>
+                    <p class="ls"><img src="src/assets/Main/resIcoLocation.svg" alt=""> Udaipur, India</p>
                     <div id="stars">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star checked"></span>
                         <span class="fa fa-star"></span>
                     </div>
                 </div>
                 <div class="block">
-                    <img class="ho" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="te">Monastero Santa Rosa Hotel & Spa</p>
-                    <p class="ls"><img src="src/assets/Main/resIcoLocation.svg" alt=""> Salerno, Italy</p>
-                    <div id="stars">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </div>
-                </div>
-                <div class="block">
-                    <img class="ho" src="src/assets/Main/destinations/img.png" alt="">
-                    <p class="te">Monastero Santa Rosa Hotel & Spa</p>
-                    <p class="ls"><img src="src/assets/Main/resIcoLocation.svg" alt=""> Salerno, Italy</p>
+                    <img class="ho" src="src/assets/Main/HotelsAndRestaurants/Frame 3-3.png" alt="">
+                    <p class="te">AKA Beverly Hills</p>
+                    <p class="ls"><img src="src/assets/Main/resIcoLocation.svg" alt=""> Los Angeles, United States</p>
                     <div id="stars">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -150,14 +160,16 @@
                 </div>
             </div>
         </section>
-        <section id="travel" class="content">
+        <section id="travel" class="content sap">
             <div class="barText">
                 <h2 class="textTop">Travel Tips and Advice</h2>
                 <a class="vAll" href="#">View all <img src="src/assets/Main/arrowLeftViewAll.svg" alt=""></a>
             </div>
             <div class="wrapper">
                 <div class="blockRow">
-                    <img class="tra" src="src/assets/Main/destinations/img.png" alt="">
+                    <div class="traWrap">
+                        <img class="tra" src="src/assets/Main/TravelTips/img.png" alt="">
+                    </div>
                     <div class="other">
                         <p class="vel">East Village Ice Cream Crawl</p>
                         <p class="tips">We will stop at five different world-class ice cream shops on this 1.5 mile 1.5
@@ -180,7 +192,9 @@
                     </div>
                 </div>
                 <div class="blockRow">
-                    <img class="tra" src="src/assets/Main/destinations/img.png" alt="">
+                    <div class="traWrap">
+                        <img class="tra" src="src/assets/Main/TravelTips/img-1.png" alt="">
+                    </div>
                     <div class="other">
                         <p class="vel">East Village Ice Cream Crawl</p>
                         <p class="tips">We will stop at five different world-class ice cream shops on this 1.5 mile 1.5
@@ -204,11 +218,52 @@
                 </div>
             </div>
         </section>
-        <section id="activities" class="content"></section>
-        <section id="aboutUs" class="content"></section>
+        <section id="activities" class="content sap">
+            <div class="barText">
+                <h2 class="textTop">Travel Tips and Advice</h2>
+                <a class="vAll" href="#">View all <img src="src/assets/Main/arrowLeftViewAll.svg" alt=""></a>
+            </div>
+            <div class="wrapper">
+                <div class="block">
+                    <a href="#" class="mouse">
+                        <img class="act" src="src/assets/Main/Activities/img.png" alt="">
+                        <p class="vities">Sailing</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#" class="mouse">
+                        <img class="act" src="src/assets/Main/Activities/img-1.png" alt="">
+                        <p class="vities">Climbing</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#" class="mouse">
+                        <img class="act" src="src/assets/Main/Activities/img-2.png" alt="">
+                        <p class="vities">Skiing</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#" class="mouse">
+                        <img class="act" src="src/assets/Main/Activities/img-3.png" alt="">
+                        <p class="vities">Hiking</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="aboutUs" class="content sap">
+            <div id="aboutTxt">
+                <h2 class="textTop">About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis
+                    tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit
+                    amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos.</p>
+                <a class="vAll" href="#">Read More <img src="src/assets/Main/arrowLeftViewAll.svg" alt=""></a>
+            </div>
+            <img src="src/assets/Main/aboutUs.png" alt="">
+        </section>
     </main>
 
-    <footer class="content">
+    <footer class="pad">
         <div id="finfoSocial">
             <div id="fLogoCont">
                 <img class="lo" src="src/assets/Footer/f2rism.svg" alt="">
@@ -246,9 +301,16 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-        <div id="subscribeForm">
+        <div id="subsForm">
             <h4 id="subs">Subscribe on our destination review newsletters</h4>
-            <form id="mailForm" action="#"></form>
+            <form id="mailForm" action="#">
+                <img src="src/assets/Footer/mailIco.svg" alt="">
+                <div id="inputWrap">
+                    <label for="email">Your Email<br></label>
+                    <input type="text" id="email" name="subMail">
+                </div>
+                <button type="submit" id="btnSub"><img src="src/assets/Footer/btnSubArrow.svg" alt=""></button>
+            </form>
         </div>
     </footer>
 </body>

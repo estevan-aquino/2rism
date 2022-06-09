@@ -6,20 +6,28 @@
 
 	font-family: 'Poppins';
 	font-style: normal;
+
+}
+
+html,
+body {
+	overflow-x: hidden;
 }
 
 .content {
-	padding: 0px 12em;
-	/* padding: 0px 14%; */
+	/* margin: 0px 270px; */
+	width: 100%;
+	padding: 0px 14.1%;
 }
 
 header {
 	position: absolute;
 	width: 100%;
-    display: flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	top: 16px;
+	/* top: 16px; */
+
 }
 
 #logoCont {
@@ -39,7 +47,7 @@ header {
 }
 
 .navHeader {
-	/* margin: 0px 27px; */
+	margin: 0px 27px;
 	margin: 0px 1.5rem;
 	height: auto;
 
@@ -66,7 +74,7 @@ header {
 	display: flex;
 }
 
-#userID > p{
+#userID>p {
 	text-align: right;
 	padding-top: 3px;
 	padding-right: 8px;
@@ -108,9 +116,8 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 
-	height: 405px;
-
 	background-color: #F9F9F9;
+	margin-top: 120px;
 }
 
 #finfoSocial {
@@ -133,7 +140,7 @@ footer {
 	margin-top: 35px;
 }
 
-#fSocialsIco > img {
+#fSocialsIco>img {
 	padding-right: 37px;
 }
 
@@ -141,18 +148,22 @@ footer {
 	display: flex;
 	justify-content: space-between;
 
+	padding: 0px 2em;
+
 	width: 505px;
 }
 
 .collNav {
 	list-style-type: none;
+
+	/* margin: 0px 1em */
 }
 
-.collNav > li {
+.collNav>li {
 	margin-top: 12px;
 }
 
-.collNav > li > a {
+.collNav>li>a {
 	text-decoration: none;
 
 	font-family: 'Poppins';
@@ -178,4 +189,57 @@ footer {
 
 #fLogoCont {
 	position: relative;
+}
+
+.pad {
+	padding: 120px 12em;
+}
+
+#subsForm {
+	align-self: flex-start;
+	width: 388px;
+}
+
+#mailForm {
+	margin-top: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	width: 100%;
+	height: 72px;
+}
+
+#inputWrap {
+	margin-left: 18px;
+	flex-flow: column;
+}
+
+#inputWrap label {
+	font-weight: 300;
+	font-size: 14px;
+	color: #5B5B5B;
+}
+
+#inputWrap>input {
+	font-weight: 500;
+	font-size: 16px;
+	color: #161414;
+
+	height: auto;
+
+	outline: none;
+
+	/* border-bottom: 1px solid #000; */
+}
+
+#btnSub {
+	width: 72px;
+	height: 72px;
+
+	background: #7B61FF;
+	border-radius: 12px;
+}
+
+#btnSub>img {
+	margin: 28px
 }
