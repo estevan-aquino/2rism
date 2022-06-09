@@ -79,13 +79,94 @@
     background-color: #FFFFFF;
 }
 
+.search {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0px 0.4em;
+}
+
+.search>label {
+    padding-left: 0.8em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5B5B5B;
+}
+
+#sLoc {
+    width: 230px;
+    outline: none;
+}
+
+#sLoc::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161414;
+    opacity: 1;
+}
+
+#sAct {
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+#sAct {
+    position: relative;
+
+}
+
+#sAct:after {
+    content: '>';
+    font: 18px "Consolas", monospace;
+    color: #aaa;
+    transform: rotate(90deg);
+    right: -7px;
+    top: 10px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    pointer-events: none;
+}
+
+select {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161414;
+    opacity: 1;
+}
+
+/* #sAct:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+} */
+
 #btnSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 60px;
     height: 60px;
 
     background: #7B61FF;
     border-radius: 12px;
 }
+
+
 
 
 /* =======================Hero Form========================== */

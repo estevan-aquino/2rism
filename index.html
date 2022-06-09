@@ -60,10 +60,42 @@
                 </div>
                 <div id="sFormWrapper">
                     <form action="" id="heroSearch">
-                        <input type="text" id="sLoc" class="search">
-                        <input type="checkbox" id="sAct" class="search">
-                        <input type="date" name="" id="sWhen" class="search">
-                        <input type="checkbox" id="sGuest" class="search">
+                        <div class="search">
+                            <img src="src/assets/Main/locIcon.svg" alt="">
+                            <label for="sLoc">Destination <br>
+                                <input type="text" id="sLoc" placeholder="Explore nearby destinations">
+                            </label>
+                        </div>
+                        <div class="search">
+                            <img src="src/assets/Main/actIco.svg" alt="">
+                            <label id="sAct" for="sAct">Activities <br>
+                                <select type="select" id="sAct">
+                                    <option selected value="all">All Activities</option>
+                                    <option value="hi">Hiking</option>
+                                    <option value="sk">Skiing</option>
+                                    <option value="cl">Climbing</option>
+                                    <option value="sa">Sailing</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="search">
+                            <img src="src/assets/Main/whenIco.svg" alt="">
+                            <label for="sWhen">When <br>
+                                <input type="date" name="" id="sWhen">
+                            </label>
+                        </div>
+                        <div class="search">
+                            <img src="src/assets/Main/guestIco.svg" alt="">
+                            <label id="sAct" for="sAct">Guests <br>
+                                <select type="select" id="sAct">
+                                    <option selected value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                    <option value="5">5 Guests</option>
+                                </select>
+                            </label>
+                        </div>
                         <button type="submit" id="btnSearch"><img src="src/assets/Main/searchIco.svg" alt=""></button>
                     </form>
                 </div>
