@@ -7,7 +7,9 @@
 
     .wrapper {
         width: 76%;
-        margin: 32px 15%
+        max-width: 760px;
+        min-width: 647px;
+        /* padding: 32px 15% 0px 15%; */
     }
 
     #travel>.wrapper {

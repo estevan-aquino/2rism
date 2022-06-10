@@ -166,10 +166,7 @@ select {
     border-radius: 12px;
 }
 
-
-
-
-/* =======================Hero Form========================== */
+/* ============================================================= */
 
 .textTop {
     font-weight: 600;
@@ -188,7 +185,8 @@ select {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 64px;
+    padding-top: 64px;
+    margin: auto;
 }
 
 .block {
@@ -199,7 +197,7 @@ select {
 .blockRow {
     display: flex;
     flex-flow: row wrap;
-    height: 380px;
+    height: auto;
     margin-top: 2em;
 }
 
@@ -298,7 +296,7 @@ select {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    margin-top: 124px;
+    margin-top: 38%;
 
     font-family: 'Poppins';
     font-style: normal;
