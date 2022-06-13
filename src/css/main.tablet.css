@@ -24,4 +24,27 @@
     .tra {
         width: 100%;
     }
+
+    
+}
+
+@media (max-width: 1170px) {
+    
+    .title > h1 {
+        text-align: center;
+    }
+
+   .blockRow {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+
+    #aboutUs {
+        flex-flow: column;
+    }
+
+    #aboutUs > img {
+        padding-top: 1em;
+    }
 }

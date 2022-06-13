@@ -1,0 +1,17 @@
+@media (max-width: 720px) {
+.wrapper {
+        justify-content: center;
+        min-width: 10px;
+    }
+
+    .blockRow {
+        flex-flow: column;
+        align-content: center;
+    }
+    .tra {
+        /* margin-left: 16px; */
+    }
+    .other {
+        margin-left: 5px;
+    }
+}
