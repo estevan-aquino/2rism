@@ -1,6 +1,6 @@
 @media (max-width: 1919px) {
     .content {
-        padding: 0px 10%;
+        padding: 1px 10%;
     }
 
     .pad {
@@ -10,7 +10,7 @@
 
 @media (max-width: 1280px) {
     .content {
-        padding: 0px 5%;
+        padding: 1px 5%;
     }
 
     #headerNav{

@@ -1,3 +1,148 @@
 @media (max-width: 720px) {
     
+    #headerNav {
+        display: none;
+    }
+
+    #olhar {
+        display: block;
+        position: relative;
+        margin-right: 20%;
+      }
+      
+      #menu_checkbox {
+        display: none;
+      }
+      
+      .btnMenu {
+        position: absolute;
+        right: 0;
+        left: 0;
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin: -30px auto 0 auto;
+        cursor: pointer;
+      }
+      
+      .btnMenu:before {
+        content: "";
+        position: fixed;
+        width: auto;
+        height: auto;
+        /* background-color: #f44336; */
+        transition: 1.2s cubic-bezier(0, 0.96, 1, 0.02);
+      }
+      
+      .btnMenu .bars {
+        position: relative;
+        top: 0;
+        height: 12px;
+        background-color: #fff;
+        margin-bottom: 12px;
+        transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width,
+          0.3s ease right;
+        border-radius: 2px;
+      }
+      
+      .btnMenu .bars:first-child {
+        transform-origin: 0;
+      }
+      
+      .btnMenu .bars:last-child {
+        margin-bottom: 0;
+        transform-origin: 60px;
+      }
+      
+      .btnMenu .bars:nth-child(2) {
+        right: 0;
+        width: 60px;
+      }
+      
+      /* #menu_checkbox:checked + label:before {
+        background-color: #4caf50;
+      } */
+      
+      #menu_checkbox:checked + .btnMenu .bars:first-child {
+        top: -6px;
+        transform: rotateZ(45deg);
+      }
+      
+      #menu_checkbox:checked + .btnMenu .bars:last-child {
+        top: 6px;
+        transform: rotateZ(45deg);
+      }
+      
+      #menu_checkbox:checked + .btnMenu .bars:nth-child(2) {
+        width: 85px;
+        top: 0;
+        right: 13px;
+        transform: rotateZ(-45deg);
+      }
+
+      /* Dropdown Button */
+.dropbtn {
+  /* background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none; */
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+/* .dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+      
+    .content {
+        padding: 20px;
+    }
+
+    #subs {
+      text-align: center;
+    }
+
+    #mailForm {
+      justify-content: center;
+    }
+
+    
+    .mobNav {
+      padding: 0.3em;
+      text-decoration: none;
+    }
 }

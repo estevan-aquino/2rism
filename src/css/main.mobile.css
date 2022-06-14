@@ -1,5 +1,44 @@
 @media (max-width: 720px) {
-.wrapper {
+
+    #hero {
+        border-radius: 0px 0px 40px 40px;
+    }
+
+    #btnSearch {
+        width: 270px;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    #hero {
+        height: 700px;
+    }
+    
+    .title > h1 {
+        font-size: 2em;
+    }
+
+    .title {
+        padding-top: 9em;
+    }
+    
+    /* #sFormWrapper {
+        height: 100px;
+    } */
+    
+    #heroSearch {
+        flex-flow: column;
+        height: auto;
+        justify-content: center;
+    }
+
+    .search {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 0.5em;
+    }
+
+    .wrapper {
         justify-content: center;
         min-width: 10px;
     }
@@ -8,10 +47,14 @@
         flex-flow: column;
         align-content: center;
     }
-    .tra {
-        /* margin-left: 16px; */
-    }
+    /* .tra {
+        margin-left: 16px;
+    } */
     .other {
         margin-left: 5px;
+    }
+
+    .pad {
+        padding: 10px 10px;
     }
 }
